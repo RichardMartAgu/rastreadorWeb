@@ -55,6 +55,8 @@ public class AppController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        tabSearch.setTabClosingPolicy(TabPane.TabClosingPolicy.ALL_TABS);
+
         ObservableList<Integer> choices = FXCollections.observableArrayList(1, 2, 3, 4, 5);
         maxTabsChoiceBox.setItems(choices);
         maxTabsChoiceBox.setValue(5);

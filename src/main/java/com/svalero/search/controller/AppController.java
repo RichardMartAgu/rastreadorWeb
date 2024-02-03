@@ -67,14 +67,16 @@ public class AppController implements Initializable {
         File selectedKeyFile = fileChooser.showOpenDialog(stage);
         this.fileKeyWords = selectedKeyFile;
         this.KeyPathLabel.setText(this.fileKeyWords.getAbsolutePath());
+        keyWordList = new ArrayList<String>();
         try {
             keyFileScanner = new Scanner(this.fileKeyWords);
             while (keyFileScanner.hasNextLine()) {
                 String keyText = keyFileScanner.nextLine();
-                System.out.println(keyText);
-                List<String> keyWordList = new ArrayList<>();
+                System.out.println("Keys" + keyText);
                 keyWordList.add(keyText);
+                System.out.println("KeysLIst" + keyWordList);
             }
+
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -103,6 +105,7 @@ public class AppController implements Initializable {
             while (webFileScanner.hasNextLine()) {
                 String urlText = webFileScanner.nextLine();
                 System.out.println(urlText);
+
                 createTask(urlText, keyWordList);
             }
         } else {
@@ -112,14 +115,11 @@ public class AppController implements Initializable {
 
     public void createTask(String urlText, List<String> keyWordList) throws IOException {
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("C:\\Users\\richa\\OneDrive\\Escritorio\\Practicas Presenciales Segundo\\rastreadorWeb\\src\\main\\resources\\com.svalero.search\\searchPane.fxml"));
-
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com.svalero.search/searchPane.fxml"));
+        System.out.println(keyWordList);
         SearchController searchController = new SearchController(urlText, keyWordList);
-
         loader.setController(searchController);
-
         AnchorPane anchorPane = loader.load();
-
         tabSearch.getTabs().add(new Tab(urlText, anchorPane));
     }
 

@@ -7,22 +7,27 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
+import javafx.scene.control.TextArea;
 
 import java.io.File;
 import java.lang.reflect.MalformedParametersException;
 import java.net.URL;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
 
 public class SearchController implements Initializable {
     @FXML
     private Label lbStatus;
     @FXML
     private ProgressBar pbProgress;
+    @FXML
+    private TextArea textArea;
     private List<String> keyWords;
     private String urlWeb;
 
+    private List<HashMap<String,Integer>> hasList;
+
     private SearchTask searchTask;
+    private Map<String, Integer> hashMap = new HashMap<>();
 
     public SearchController(String urlWeb, List<String> keyWords) {
         this.keyWords = keyWords;
@@ -40,13 +45,23 @@ public class SearchController implements Initializable {
             pbProgress.progressProperty().bind(searchTask.progressProperty());
 
             searchTask.stateProperty().addListener((observableValue, oldState, newState) -> {
-                        if (newState == Worker.State.SUCCEEDED) {
-                            ShowAlert.showInformationAlert("Información", "Información", "El filtro se ha realizado con éxito");
-                        }
-                    }
-                    searchTask.messageProperty().addListener((observableValue, oldValue, newValue) -> {
-                        lbStatus.setText(newValue);
+                if (newState == Worker.State.SUCCEEDED) {
+                    ShowAlert.showInformationAlert("Información", "Información", "La busqueda se ha realizado con éxito");
+                }
+            });
+            searchTask.setOnSucceeded(event -> {
+                hashMap = searchTask.getValue();
+                hasList = new ArrayList<HashMap<String, Integer>>();
+                for (Map.Entry<String, Integer> entry : hashMap.entrySet()) {
+                    String key = entry.getKey();
+                    Integer value = entry.getValue();
+                    System.out.println("Clave: " + key + ", Valor: " + value);
+                    textArea.appendText("Clave: " + key + ", Valor: " + value + "\n");
+                }
                     });
+            searchTask.messageProperty().addListener((observableValue, oldValue, newValue) -> {
+                lbStatus.setText(newValue);
+            });
 
             new Thread(searchTask).start();
 
@@ -54,3 +69,4 @@ public class SearchController implements Initializable {
             murle.printStackTrace();
         }
     }
+}

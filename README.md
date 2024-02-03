@@ -18,7 +18,7 @@ veces ha aparecido cada palabra clave en la web correspondiente a dicha pestaña
 
 ## Captura
 
-![Captura de Pantalla](ruta/a/tu/captura-de-pantalla.png)
+![Captura de Pantalla](https://github.com/RichardMartAgu/rastreadorWeb/blob/master/screnshot.jpg)
 
 
 ## Miembros del equipo

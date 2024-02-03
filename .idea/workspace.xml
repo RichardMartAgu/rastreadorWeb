@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c62f1fe9-3dae-4d73-b78d-af030c82db20" name="Changes" comment="Completar programa">
+    <list default="true" id="c62f1fe9-3dae-4d73-b78d-af030c82db20" name="Changes" comment="Ajustar código">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/svalero/search/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/controller/AppController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,12 +95,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706979976256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajustar código">
+      <created>1706981118815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706981118815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Logica general programa" />
     <MESSAGE value="Completar programa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completar programa" />
+    <MESSAGE value="Ajustar código" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustar código" />
   </component>
 </project>

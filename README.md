@@ -24,5 +24,7 @@ veces ha aparecido cada palabra clave en la web correspondiente a dicha pestaña
 ## Miembros del equipo
 
 RICHARD MARTINEZ
+
 DANIEL FANDOS
+
 SANTIAGO PEREZ

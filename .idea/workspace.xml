@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c62f1fe9-3dae-4d73-b78d-af030c82db20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/task/SearchTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/svalero/search/utils/ShowAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.svalero.search/mainWindow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.svalero.search/searchPane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com.svalero.search/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2br1LCyn9Kb1crUTPhOvElc2XIJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/richa/OneDrive/Escritorio/Practicas Presenciales Segundo/rastreadorWeb/src/main/resources/com.svalero.search/target/file"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.svalero.search.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\OneDrive\Escritorio\Practicas Presenciales Segundo\rastreadorWeb\src\main\resources\com.svalero.search\target\file" />
+      <recent name="C:\Users\richa\OneDrive\Escritorio\Practicas Presenciales Segundo\rastreadorWeb\src\main\java\com\svalero\search" />
+      <recent name="C:\Users\richa\OneDrive\Escritorio\Practicas Presenciales Segundo\rastreadorWeb\src\main\resources\com.savlero.search" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\richa\OneDrive\Escritorio\Practicas Presenciales Segundo\rastreadorWeb\src\main\resources\com.svalero.search" />
+      <recent name="C:\Users\richa\OneDrive\Escritorio\Practicas Presenciales Segundo\rastreadorWeb\src\main\resources\com.savlero.search" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.svalero.search.utils" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c62f1fe9-3dae-4d73-b78d-af030c82db20" name="Changes" comment="" />
+      <created>1706958328469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706958328469</updated>
+    </task>
+    <servers />
+  </component>
+</project>

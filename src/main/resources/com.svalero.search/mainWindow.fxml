@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="791.0" prefWidth="983.0" styleClass="Anchor" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button fx:id="buttonOpenKeyWords" layoutX="233.0" layoutY="125.0" mnemonicParsing="false" onAction="#openKeyWords" text="Abrir KeyWords" />
+        <Label fx:id="WebPathLabel" layoutX="20.0" layoutY="254.0" prefHeight="26.0" prefWidth="943.0" />
+        <TabPane fx:id="tabSearch" layoutX="15.0" layoutY="345.0" prefHeight="440.0" prefWidth="954.0" tabClosingPolicy="UNAVAILABLE">
+        </TabPane>
+        <Button fx:id="buttonSearch" layoutX="26.0" layoutY="287.0" mnemonicParsing="false" onAction="#search" text="Buscar" />
+        <Button fx:id="buttonOpenWebs" layoutX="233.0" layoutY="215.0" mnemonicParsing="false" onAction="#openWebs" text="Abrir Webs Destino" />
+        <ChoiceBox fx:id="maxTabsChoiceBox" layoutX="139.0" layoutY="280.0" prefHeight="47.0" prefWidth="114.0" styleClass="button" />
+      <Label fx:id="KeyPathLabel" layoutX="20.0" layoutY="172.0" prefHeight="26.0" prefWidth="943.0" />
+    </children>
+</AnchorPane>

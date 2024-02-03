@@ -16,7 +16,7 @@ b. El segundo contendrá las webs que rastreará la aplicación. Al menos 5.
 3. En cada pestaña hay una barra de progreso donde se ve cuántos elementos “p” de
 la web han sido ya procesados en base al total de todos ellos.
 
-    3.3 La barra de progreso se reiniciará con cada nueva palabra clave..
+    3.3 La barra de progreso se reiniciará con cada nueva palabra clave.
   
 4. Debajo de la barra de progreso aparece qué palabra clave se está buscando y cuántas
 veces ha aparecido ya. Esta información se irá actualizando en tiempo real.
